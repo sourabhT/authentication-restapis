@@ -14,8 +14,5 @@ router.post('/', function(req, res, next) {
   return "count";
 });
 
-router.get('/', function(req, res, next) {
-  res.render('index',{ title: 'mylogin'});
-});
 
 module.exports = router;
